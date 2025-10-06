@@ -1,7 +1,10 @@
 from collections import defaultdict
 
 class SessionStats:
-    """Simple in-memory counters and duration holder."""
+    """
+    In-memory counters + session duration holder.
+    Only bump() after the gesture passes stability + confidence threshold.
+    """
     def __init__(self):
         self.counts = defaultdict(int)
         self.duration_sec = 0

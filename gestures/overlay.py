@@ -1,6 +1,7 @@
 import cv2
 
 def _color_for_conf(conf: float):
+    # Green >= 0.80, Yellow 0.60–0.79, Red < 0.60
     if conf >= 0.8:   return (46, 204, 113)
     if conf >= 0.6:   return (0, 255, 255)
     return (0, 0, 255)
