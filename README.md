@@ -1,24 +1,23 @@
-```
+```markdown
 # Hand Gesture Recognition (OpenCV + MediaPipe)
 
-Real-time hand gesture recognition using **OpenCV** for video capture and **MediaPipe Hands** for hand landmark detection.  
-The application displays hand landmarks, classifies gestures, overlays labels with confidence scores and FPS, and saves session statistics upon exit.
+Real-time hand gesture recognition using **OpenCV** for video capture and **MediaPipe Hands** for hand landmark detection. The application displays hand landmarks, classifies gestures, overlays labels with confidence scores and FPS, and saves session statistics upon exit.
 
 ---
 
 ## 🧠 Features
 
-- **MediaPipe Hands** integration (21 landmarks) with OpenCV video pipeline  
+- **MediaPipe Hands** integration (21 landmarks) with OpenCV video pipeline
 - **Rule-based gesture recognition**:
-  - 🖐️ `Hello` (open palm)  
-  - ✊ `Stop` (closed fist)  
-  - ✌️ `Peace` (V sign)  
-  - 👍 `Like` (thumb up)  
+  - 🖐️ `Hello` (open palm)
+  - ✊ `Stop` (closed fist)
+  - ✌️ `Peace` (V sign)
+  - 👍 `Like` (thumb up)
   - 👌 `Okay` (thumb + index circle)
 - **Decision smoothing:** majority vote over a sliding window to reduce prediction jitter
-- **Dynamic visualization:** overlay colors change based on confidence levels  
-  - Green ≥ 0.80  
-  - Yellow 0.60–0.79  
+- **Dynamic visualization:** overlay colors change based on confidence levels
+  - Green ≥ 0.80
+  - Yellow 0.60–0.79
   - Red < 0.60
 - **Session analytics:** gesture counts and duration saved in `stats/session_stats.json`
 
@@ -80,8 +79,7 @@ python -m pip install -r requirements.txt
 python main.py --camera 0 --width 960 --height 540 --smooth 7 --min-det 0.7 --min-trk 0.6
 ```
 
-Press **`q`** or **`Esc`** to exit.  
-Session statistics are automatically saved to `stats/session_stats.json`.
+Press **`q`** or **`Esc`** to exit. Session statistics are automatically saved to `stats/session_stats.json`.
 
 ---
 
@@ -191,8 +189,7 @@ Color bar is green since confidence ≥ 0.8.
 
 ## 🪪 License
 
-MIT License — free for use, modification, and distribution.  
-Hand landmark detection powered by Google's **MediaPipe**.
+MIT License — free for use, modification, and distribution. Hand landmark detection powered by Google's **MediaPipe**.
 
 ---
 
@@ -207,8 +204,8 @@ Hand landmark detection powered by Google's **MediaPipe**.
 
 ## ✨ Author
 
-**Mahmoud Ahmad Hamam**  
-📧 Email: [mahmoudhamam892@gmail.com](mailto:mahmoudhamam892@gmail.com)  
+**Mahmoud Ahmad Hamam**
+📧 Email: [mahmoudhamam892@gmail.com](mailto:mahmoudhamam892@gmail.com)
 🔗 GitHub: [@02Mahmoudhamam](https://github.com/02Mahmoudhamam)
 
 ---
@@ -231,3 +228,5 @@ python main.py --camera 0 --width 960 --height 540 --smooth 7
 
 **Made with ❤️ using OpenCV and MediaPipe**
 ```
+
+**Copy everything above (including the triple backticks) and paste it directly into your README.md file!** ✅
