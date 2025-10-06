@@ -1,4 +1,4 @@
-```markdown
+```
 # Hand Gesture Recognition (OpenCV + MediaPipe)
 
 Real-time hand gesture recognition using **OpenCV** for video capture and **MediaPipe Hands** for hand landmark detection.  
