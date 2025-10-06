@@ -1,4 +1,4 @@
-تمام، هذا هو النص كامل جاهز للنسخ دفعة واحدة:
+
 
 # Hand Gesture Recognition (OpenCV + MediaPipe)
 
