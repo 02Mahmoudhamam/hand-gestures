@@ -1,4 +1,5 @@
-```markdown
+تمام، هذا هو النص كامل جاهز للنسخ دفعة واحدة:
+
 # Hand Gesture Recognition (OpenCV + MediaPipe)
 
 Real-time hand gesture recognition using **OpenCV** for video capture and **MediaPipe Hands** for hand landmark detection. The application displays hand landmarks, classifies gestures, overlays labels with confidence scores and FPS, and saves session statistics upon exit.
@@ -204,8 +205,8 @@ MIT License — free for use, modification, and distribution. Hand landmark dete
 
 ## ✨ Author
 
-**Mahmoud Ahmad Hamam**
-📧 Email: [mahmoudhamam892@gmail.com](mailto:mahmoudhamam892@gmail.com)
+**Mahmoud Ahmad Hamam**  
+📧 Email: [mahmoudhamam892@gmail.com](mailto:mahmoudhamam892@gmail.com)  
 🔗 GitHub: [@02Mahmoudhamam](https://github.com/02Mahmoudhamam)
 
 ---
@@ -227,6 +228,3 @@ python main.py --camera 0 --width 960 --height 540 --smooth 7
 ---
 
 **Made with ❤️ using OpenCV and MediaPipe**
-```
-
-**Copy everything above (including the triple backticks) and paste it directly into your README.md file!** ✅
